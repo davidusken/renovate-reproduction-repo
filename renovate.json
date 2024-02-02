@@ -1,0 +1,27 @@
+{
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "prometheus",
+        "promtail",
+        "loki",
+        "mimir-distributed"
+      ],
+      "groupName": "monitoring packages",
+      "groupSlug": "monitoring-packages"
+    },
+    {
+      "matchPackageNames": [
+        "renovate"
+      ],
+      "matchUpdateTypes": [
+        "minor", 
+        "patch", 
+        "digest"
+      ],
+      "groupName": "renovate packages",
+      "groupSlug": "renovate-packages"
+    }
+  ]
+}
+  
