@@ -4,7 +4,7 @@ name: prometheus
 
 dependencies:
 - name: prometheus
-  version: 25.5.0
+  version: 25.13.0
   repository: https://prometheus-community.github.io/helm-charts
 - name: prometheus-snmp-exporter
   version: 1.6.1
